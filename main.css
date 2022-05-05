@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color:white;
+    text-align: justify;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(202, 39, 194);
+}
+

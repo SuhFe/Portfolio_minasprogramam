@@ -2,77 +2,123 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="Suzana Araujo, Desenvolvedora,portfolio">
+    <meta keywords= "Suzana Araujo, Desenvolvedora, Portfólio">
     <meta name="description" content="portifolio da Suzana">
-    <title>Meu Portifólio</title>
-    <link rel="stylesheet" href="main.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="main.css">
+        <title>Portifólio: Suzana Araujo</title>
 </head>
+
 <body>
-    <navbar>
-        <ul>
-            <li>
-                <a href="#formacao">Formação</a>
-            </li>
-            <li>
-                <a hrrf="#portifolio">Portifólio</a>
-            </li>
-            <li>
-                <a href="#contato">Contatos</a>
-            </li>
-        </ul>
-    </navbar>
-    <main>
-        <figure>
+    <nav class="menu">
+       <ul class="lista-menu">
+           <li>
+               <a href="#formacao">Formação</a>
+           </li>
+           <li>
+               <a href="#portfolio">Portfólio</a>
+           </li>
+           <li>
+               <a href="#contato">Contato</a>
+           </li>
+       </ul>
+    </nav>
+
+    <main class="intro-content">
+        <figure class="foto">
             <img src="image/suzanna.jpg" alt="Foto de perfil da Suzana Araujo" width="200 px">
         </figure>
-        <h1>Suzana Fernandes de Araújo</h1>
-        <h2>Desenvolvedora web</h2>
-        <p>Lorem ipsum dolor sit amet, consectet.Lorem ipsum dolor sit amet, consectet.lorem ipsum dolor sit amet, consectet.Lorem ipsum dolor sit amet.</p>
+
+        <h1 class="title">Suzana Fernandes de Araújo</h1>
+        <h2 class="subtitle">Desenvolvedora FrontEnd</h2>
+        <p class="intro">Olá, eu sou a Suzana, Formada em Gestão de Recursos Humanos e atualmente estudante de Analise e Desenvolvimento de sistemas.
+            Estou em transição de carreira e acredito que embora esteja na procura do meu primeiro emprego na tecnologia, minhas experiências
+            passadas agregam muito no trabalho em equipe, visão de futuro e busca por soluções no mundo dev.
+            Finalizei recentemente um curso Super-intensivo de Desenvolvimento de Websites - Backend da Estação Hack, onde aprendi e apliquei conhecimentos em um projeto
+            integrador do zero, utilizando de Java Script, Git, NodeJS e NPM, Express e EJS, Hot reload com Nodemon, PostgreSQL e Deploy no heroku. 
+        </p>
     </main>
 
     <section id="formacao">
+        <div class="conteudo">
         <h1>Formação</h1>
         <ul>
             <li>
-                <h4>Curso de desenvolvimento</h4>
-                <a href="https://minasprogramam.com">link do Curso</a>
-                <p>Lorem ipsum dolor sit amet, consectet.Lorem ipsum dolor sit amet, consectet.lorem ipsum dolor sit amet, consectet.Lorem ipsum dolor sit amet.</p>
-            </li>
-            
-            <li>
-                <h4>Curso de agile</h4>
+                <h4 class="descricao">Curso de Desenvolvimento - Minas Programam</h4>
                 <h4>
-                    <a href="http://localhost:3000/" target="_blank">
+                    <a href="https://minasprogramam.com">Link do Curso</a>
+                </h4>
+                <p>Introdução à programação, lógica de programação e frontend, incluindo
+                    fundamentos de HTML5, CSS3 e Javascript.
+                </p>
+            </li>            
+            <li>
+                <h4 class="descricao">Web Development Backend - Estação Hack</h4>
+                <h4>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:6927326569216499712/" target="_blank">
                         Link desse curso
                     </a>
                  </h4>
-                 <p>Lorem ipsum dolor sit amet, consectet.Lorem ipsum dolor sit amet, consectet.lorem ipsum dolor sit amet, consectet.Lorem ipsum dolor sit amet.</p>
+                 <p>Curso de nível básico, ensina uma visão geral de como construir o back-end de aplicações utilizando o framework Express do NodeJS e os principais recursos da plataforma Heroku, como bancos de dados e publicação rápida.
+
+                </p>
             </li>    
+            <li>
+                <h4 class="descricao">Algoritmo - Curso em Vídeo</h4>
+                <h4>
+                    <a href="https://www.cursoemvideo.com/curso/curso-de-algoritmo/" target="_blank">
+                        Link desse curso
+                    </a>
+                 </h4>
+                 <p>O Curso de Algoritmo é a base necessária para quem quer aprender em linguagens famosas do mercado, como C, Java, PHP e muitas outras.
+                </p>
+            </li> 
+            <li>
+                <h4 class="descricao">MySQL - Curso em Vídeo</h4>
+                <h4>
+                    <a href="https://www.cursoemvideo.com/curso/mysql/" target="_blank">
+                        Link desse curso
+                    </a>
+                 </h4>
+                 <p>Aprende a trabalhar com Bancos de Dados utilizando um Sistema de Gerenciamento de Banco de Dados (MySQL) com a Linguagem de Consulta Estruturada (SQL). Tudo isso de maneira simples e interativa.
+                </p>
+            </li> 
         </ul>
     </section>
-
-    <section id="portifolio">
+    <section id="portfolio">
+        <div class="conteudo">
         <h1>Portifólio</h1>
         <ul>
             <li>
-                <h4>Primeiro Projeto</h4>
+                <h4 class="descricao">Primeiro Projeto</h4>
                 <p>UX</p>
                 <h4>
-                    <a href="http://localhost:3000/">Link do Projeto</a>
+                    <a href="https://minasprogramam.com/" target="_blank">Instituto Minas Programam</a>
                 </h4>
                 <p>Lorem ipsum dolor sit amet, consectet.Lorem ipsum dolor sit amet, consectet.lorem ipsum dolor sit amet, consectet.Lorem ipsum dolor sit amet.</p>
             </li>
         </ul>
+        <ul>
+            <li>
+                <h4 class="descricao">Segundo Projeto</h4>
+                <p>Desenvolvedora</p>
+                <h4>
+                    <a href="https://minasprogramam.com/" target="_blank">Instituto Minas Programam</a>
+                </h4>
+                <p>lorem ipsum dolor sit,Lorem ipsum dolor lorem,Lorem ips</p>
+            </li>
+        </ul>
+
     </section>
-    
     <footer id="contato">
         <div>
-            <i class="fab fa-brands fa-linkedin-in"></i>
-            <a href="https://www.linkedin.com/in/suzana-ara%C3%BAjo-fernandes29" target="_blank">Suzana Araujo</a>
+            <span class="fab fa-brands fa-linkedin-in"></span>
+            <a href="https://www.linkedin.com/in/suzana-ara%C3%BAjo-fernandes29">Suzana Araujo</a>
         </div>
 
         <div>
-            <i class="fas fa-envelope-square"></i>
+            <span class="fas fa-envelope-square"></span>
             <a href="mailto:su_zana-santos@hotmail.com">su_zana-santos@hotmail.com</a>
         </div>
 
@@ -81,10 +127,6 @@
             <a href="https://github.com/SuhFe" target="_blank"> Github</a>
         </div>
        
-        
     </footer>
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest">
-    </script>
-    
 </body>
 </html>

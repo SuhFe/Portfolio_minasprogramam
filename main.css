@@ -7,7 +7,7 @@ li {
 }
 
 .menu{
-    background-color:#938DF8;
+    background-color:#638165;;
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -17,7 +17,7 @@ li {
     display: flex;
     padding: 20px;
     justify-content: space-evenly;
-    width: 50%;
+    width: 60%;
 }
 
 .menu li{
@@ -33,28 +33,23 @@ text-decoration: none;
 }
 
 .foto {
- border-radius: 70px;
+ border-radius: 5px;
 }
 
 .intro-content {
-    background-color:#EDEAEA;
+    background-color: #fbf7f3;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    height: 630px;
-    padding: 30px;
-}
-
-.intro-content figure {
-    margin-bottom: 20px;
+    height: 35px;
+    padding: 266px;
 }
 
 .title{
     font-family: 'ABeeZee', sans-serif;
     font-weight: 700;
     font-size: 36px;
-    color:#938DF8;
-    margin-bottom: 20px;
+    color:black;
 }
 
 .subtitle{
@@ -74,7 +69,7 @@ text-decoration: none;
 
 section h1 {      
 font-size: 24px;
-color: #49BFB3;
+color: #155a53;
 margin-right: 50px;
 }
 
@@ -86,21 +81,21 @@ margin-right: 50px;
 }
 
 #portfolio {
-    background-color:#EDEAEA;
+    background-color:#fbf7f3;
 }
 
 .descricao {
     font-size: 16px;
     line-height: 22px;
-    color: #696868;
+    color: #5c5a5a;
     font-weight: 700;
 
 }
 
 
 #contato {
-    background-color: #5A53D8;
-    height: 200px;
+    background-color: #638165;
+    height: 112px;
     padding-left: 50px;
     padding-top: 40px;
     padding-bottom: 40px;

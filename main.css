@@ -2,12 +2,8 @@ body {
     font-family: 'ABeeZee', sans-serif;
 }
 
-li {
-    list-style: none;
-}
-
 .menu{
-    background-color:#638165;;
+    background-color:#e0e9d8;
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -16,11 +12,11 @@ li {
 .lista-menu {
     display: flex;
     padding: 20px;
-    justify-content: space-evenly;
-    width: 60%;
+    justify-content: space-between;
+    width: 408px;
 }
 
-.menu li{
+li {
     list-style: none;
 }
 
@@ -28,26 +24,31 @@ li {
 font-weight: 700;
 font-size: 18px;
 line-height: 25px;
-color: #ffffff;
+color: #46523e;
 text-decoration: none;
 }
 
 .foto {
- border-radius: 5px;
+ box-shadow: 0 0 20px rgba(54, 61, 44, 0.63);
+ border-radius: 3%;
+ width: 198px;
 }
 
 .intro-content {
-    background-color: #fbf7f3;
+    background-color: #e0e9d8;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    height: 35px;
-    padding: 266px;
+    height: 700px;
+}
+
+.intro-content hr {
+    width: 100%;
 }
 
 .title{
     font-family: 'ABeeZee', sans-serif;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 36px;
     color:black;
 }
@@ -61,10 +62,15 @@ text-decoration: none;
 
 .intro{
     color: #000000;
-    font-size: 16px;
+    font-size: 18px;
     display: flex;
-    max-width: 490px;
     text-align: justify;
+    font-family: unset;
+    width: 1038px;
+}
+
+.intro-content div {
+    min-width: 64%;
 }
 
 section h1 {      
@@ -75,13 +81,13 @@ margin-right: 50px;
 
 .conteudo {
     display: flex;
-    max-width: 800px;
+    max-width: 1041px;
     margin: 0 auto; 
     padding: 30px 0;
 }
 
 #portfolio {
-    background-color:#fbf7f3;
+    background-color:#e0e9d8;
 }
 
 .descricao {
@@ -95,14 +101,12 @@ margin-right: 50px;
 
 #contato {
     background-color: #638165;
-    height: 112px;
-    padding-left: 50px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    height: 31px;
+    padding-left: 51px;
+    padding-top: 29px;
+    padding-bottom: 18px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between
-        /*text-align: center; */
+    justify-content: space-between;
 
 }
 

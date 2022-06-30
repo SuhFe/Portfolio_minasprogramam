@@ -6,50 +6,52 @@
     <meta name="description" content="portfolio da Suzana">
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Titan+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="main.css">
         <title>Suzana Araujo</title>
 </head>
 
 <body>
-    <nav class="menu">
-       <ul class="lista-menu">
-           <li>
-               <a href="#formacao">Formação</a>
-           </li>
-           <li>
-               <a href="#portfolio">Portfólio</a>
-           </li>
-           <li>
-               <a href="#contato">Contato</a>
-           </li>
-       </ul>
-    </nav>
+    <section>
+        <nav class="menu">
+            <ul class="lista-menu">
+                <li>
+                    <a href="#formacao">Formação</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfólio</a>
+                </li>
+                <li>
+                    <a href="#certificados">Certificados</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
     
-    <main>
         <nav class="intro-content">
+                <img class="foto" src="image/suzanna-removebg-preview.png" alt="Foto de perfil da Suzana Araujo">
             <div>
-            <img class="foto" src="image/suzanna.jpg" alt="Foto de perfil da Suzana Araujo">
-            <h1 class="title">Suzana Araújo</h1>
+                <h1 class="title">Hello, I'm Suzana Araújo</h1>
                 <hr>
-            <h2 class="subtitle">Desenvolvedora Frontend</h2>
-            </div>
-            <div>
-            <p class="intro">Formada em Gestão de Recursos Humanos desde 2017, agarrei a oportunidade e estou em transição de carreira. 
-            Atualmente estudo Análise e Desenvolvimento de sistemas e embora esteja na procura do meu primeiro emprego na área de tecnologia, minhas experiências
-            passadas agregam muito no trabalho em equipe, visão de futuro e busca por soluções no mundo dev.
-            Finalizei recentemente um curso Super-intensivo de Desenvolvimento de Websites - Backend da Estação Hack, onde aprendi e apliquei conhecimentos em um projeto
-            integrador do zero, utilizando de Java Script, Git, NodeJS e NPM, Express e EJS, Hot reload com Nodemon, PostgreSQL e Deploy no heroku. 
-            </p>
+                <h2 class="subtitle">I'm a Web Developer!</h2>
             </div>
         </nav>
-    </main>
+    </section>
     
-    <main>
-    <section id="formacao">
+    <section class="flex-container" id="formacao">
         <div class="conteudo">
             <nav>
                 <h1>Formação Academica</h1>
                 <ul>
+                    <li>Formada em Gestão de Recursos Humanos desde 2017, agarrei a oportunidade e estou em transição de carreira. Atualmente estudo Análise e
+                         Desenvolvimento de sistemas e embora esteja na procura do meu primeiro emprego na área de tecnologia, minhas experiências passadas agregam muito no trabalho em equipe, visão de futuro e busca por soluções no mundo dev.
+                         Finalizei recentemente um curso Super-intensivo de Desenvolvimento de Websites - Backend da <strong>Estação Hack</strong> e <strong>Minas Programam</strong> onde aprendi 
+                        muito não só parte técnica como aplicar os conhecimentos em um projeto integrador do zero, utilizando de HTML, CSS, Java Script, Git, GitHub, NodeJS e NPM, Hot reload com Nodemon, PostgreSQL e Deploy...mas também como comunidade e trabalho em equipe.</li>
                     <li>
                         <h4 class="descricao">Universidade Anhembi Morumbi</h4>
                         <p>Análise e Desenvolvimento de Sistema</p>
@@ -65,7 +67,23 @@
             </nav>
     </section>
 
-    <section>
+    <section class="flex-container">
+        <nav class="conteudo">
+            <div class="cards-container" >
+            <div id="certificados" class="conteudo2">
+                <img class="foto2" src="image/html-5.png" alt="Logo HTML5"></a>
+            </div>
+            <div id="certificados" class="conteudo2">
+                <img class="foto2" src="image/css.png" alt="Logo css"></a>
+                <a href="" class="btn btn-primary">Início</a>
+            </div>
+            <div id="certificados" class="conteudo2">
+                <img class="foto2" src="image/user-experience.png" alt="Logo User Experience"></a>
+            </div>           
+        </nav>
+    </section>
+
+    <section class="flex-container">
         <div class="conteudo">
             <nav>
                 <h1>Cursos e Certificados</h1>
@@ -99,7 +117,7 @@
     </section>
 
     </main>
-    <section id="portfolio">
+    <section class="flex-container" id="portfolio">
         <div class="conteudo">
             <h1>Projetos</h1>
             <ul>
@@ -108,7 +126,7 @@
                     <p>Lições</p>
                     <p>Contem todo os principais tópicos do conteúdo abordado, técnicas de HTML e CSS</p>
                     <h4>
-                        <a href="https://github.com/SuhFe/minasAprendizados" target="_blank">Github Suzana</a>
+                        <a href="https://github.com/SuhFe/minasAprendizados" target="_blank">Github</a>
                     </h4>
                 </li>
             </ul>

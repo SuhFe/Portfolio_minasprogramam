@@ -1,26 +1,38 @@
 body {
     font-family: 'ABeeZee', sans-serif;
+    background-color: #e0e9d812;
 }
 
-.menu{
+.flex-container{ /*estilo do container*/  
+    width: 1650px;
+    display: flex;
+    margin:35px;
+}
+
+.align-container{
+    align-items: center;
+}
+
+.menu{ /*estilo do container*/
     background-color:#e0e9d8;
     display: flex;
     justify-content: flex-end;
     width: 100%;
 }
 
-.lista-menu {
+.lista-menu { /*estilo do container*/
     display: flex;
     padding: 20px;
     justify-content: space-between;
     width: 408px;
 }
 
-li {
+
+li { /*estilo do link do menu*/
     list-style: none;
 }
 
-.menu a{
+.menu a{ /*estilo link do menu*/
 font-weight: 700;
 font-size: 18px;
 line-height: 25px;
@@ -28,76 +40,72 @@ color: #46523e;
 text-decoration: none;
 }
 
-.foto {
- box-shadow: 0 0 20px rgba(54, 61, 44, 0.63);
- border-radius: 3%;
- width: 198px;
-}
-
 .intro-content {
     background-color: #e0e9d8;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 700px;
+    padding: 0 136px;
+    min-width: 889px;
 }
 
-.intro-content hr {
-    width: 100%;
+.foto {
+    width: 248px; /*tamanho da foto*/
 }
 
 .title{
-    font-family: 'ABeeZee', sans-serif;
-    font-weight: 700px;
-    font-size: 36px;
+    font-family: 'Arima', cursive;
+    font-size: 44px;
     color:black;
 }
-
 .subtitle{
-    font-family: 'ABeeZee', sans-serif;
-    font-size: 25px;
-    color: #2929297a;
+    font-family: 'Arima', cursive;
+    font-size: 38px;
+    color: #16625b;
 
 }
 
-.intro{
-    color: #000000;
-    font-size: 18px;
+.intro-content hr { /*tamanho da underline*/
+    width: 710px;
+}
+
+.conteudo { /*estilização do conteúdo*/
     display: flex;
+    max-width: 1280px;
+    margin: 0 auto; 
     text-align: justify;
-    font-family: unset;
-    width: 1038px;
 }
 
-.intro-content div {
-    min-width: 64%;
+.descricao {
+    font-size: 18px;
+    line-height: 22px;
+    color: #46523e;
 }
 
 section h1 {      
-font-size: 24px;
-color: #155a53;
-margin-right: 50px;
+    font-size: 24px;
+    color: ##46523e;
+    margin-right: 50px;
+}
+    
+.cards-container {
+    flex-wrap: wrap;
+    display: flex;
 }
 
-.conteudo {
-    display: flex;
-    max-width: 1041px;
-    margin: 0 auto; 
-    padding: 30px 0;
+.conteudo2 {
+    background-color:#e0e9d9;
+    width: 283px;
+    margin: 0 0 18px 29px;
+    padding: 36px;
 }
+
+.foto2 {
+    width: 145px; /*tamanho da foto*/
+}
+
 
 #portfolio {
     background-color:#e0e9d8;
 }
-
-.descricao {
-    font-size: 16px;
-    line-height: 22px;
-    color: #5c5a5a;
-    font-weight: 700;
-
-}
-
 
 #contato {
     background-color: #638165;
@@ -105,6 +113,7 @@ margin-right: 50px;
     padding-left: 51px;
     padding-top: 29px;
     padding-bottom: 18px;
+    padding-right: 80px;
     display: flex;
     justify-content: space-between;
 
